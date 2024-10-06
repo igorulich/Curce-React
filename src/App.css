@@ -1,7 +1,7 @@
 .timeCounter{
   position: fixed;
   top: 5%;
-  left: 12%;
+  right: 12%;
   width: 180px;
   height: 70px;
   background-color: #026602;
@@ -21,7 +21,7 @@
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 17px;
   cursor: pointer;
   margin-top: 10px;
   border: 1px solid #fff;
