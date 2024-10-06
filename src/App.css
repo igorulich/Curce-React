@@ -3,18 +3,19 @@
   top: 5%;
   right: 12%;
   width: 180px;
-  height: 70px;
-  background-color: #026602;
+    height: 70px;
+  background-color: transparent;
   z-index: 10;
-  border:2px solid rgb(255, 255, 255);
-  border-radius: 8px;
   text-align: center;
 
 }
 .timeCounter h3{
   color: white;
   text-align: center;
-  margin-top: 10px;
+  border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+  background-color: #026602;
+  
 }
 .timeCounter h4{
   color:white;
@@ -24,7 +25,22 @@ background-color: #026602;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 8px;
   text-align: center;
- 
+}
+
+.timeCounter p{
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
+  border:  solid 1px rgb(8, 33, 255);
+}
+.timeCounter h6 {
+  color: white;
+  text-align: center;
+  border: 2px solid rgb(230, 255, 5);
+  border-radius: 8px;
+  background-color: #026602;
+  font-size: 19px;
 }
 .timeCounter button{
   position: relative;
@@ -38,4 +54,12 @@ background-color: #026602;
   border: 1px solid #fff;
   width: 50%;
   
+}
+.timeCounter ul{
+  position: relative;
+    background-color: #026602;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 17px;
 }

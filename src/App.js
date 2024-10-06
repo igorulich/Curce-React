@@ -9,6 +9,14 @@ function App() {
   const [counter, setCounter] = useState(0);
   const [pcolor, setColor] = useState({ background: 'white' });
   const [val, setVal] = useState(0);
+  const [arr, setArr] = useState([1, 2, 3, 4, 5]);
+
+
+  const push=()=>{
+    let temp = arr;
+    setArr([...temp,1]);
+  
+  }
   function Increase() {
     setCounter(counter + 1)
     setColor({ background: 'green' })
@@ -27,6 +35,11 @@ function App() {
       <div className='timeCounter'>
         <h3>{counter}</h3>
         <h4>{val}</h4>
+        <h6>{arr}</h6>
+        <button onClick={push} >Push</button>
+        <ul>
+        {arr.map((e,idx)=><li key={idx}>(e)</li>)}
+        </ul>
         <p style={pcolor}>This is a simple React application.</p>
        <input type='range' onChange={vaISetter} value={val}></input>     
         <button onClick={Increase}>Click me +</button>
