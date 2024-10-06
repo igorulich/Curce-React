@@ -7,7 +7,8 @@ import { useState } from 'react';
 
 function App() {
   const [counter, setCounter] = useState(0);
-  const [pcolor, setColor] = useState({background:'white'});
+  const [pcolor, setColor] = useState({ background: 'white' });
+  const [val, setVal] = useState(0);
   function Increase() {
     setCounter(counter + 1)
     setColor({ background: 'green' })
@@ -17,16 +18,17 @@ function App() {
     setColor({ background: 'red' })
   }
   function vaISetter(event) {
-    console.log(event.target);
+    setVal(event.target.value);
   }
+
   return (
     <>
       
       <div className='timeCounter'>
         <h3>{counter}</h3>
-    
+        <h4>{val}</h4>
         <p style={pcolor}>This is a simple React application.</p>
-       <input type='range' onChange={vaISetter} value={1}></input>     
+       <input type='range' onChange={vaISetter} value={val}></input>     
         <button onClick={Increase}>Click me +</button>
         <button onClick={Decrease}>Click me -</button>
     </div>
