@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Початок роботи",
+    "body":"Create React App — це офіційно підтримуваний спосіб створення односторінкових програм React. Він пропонує сучасне налаштування збірки без конфігурації.",
+    "href":"https://create-react-app.dev/docs/getting-started/"
+  },
+  {
+    "title": "Структура папки",
+    "body":"Ви можете створити підкаталоги всередині src. Для швидшого відновлення srcwebpack обробляє лише файли всередині. Вам потрібно помістити будь-які файли JS і CSS всерединуsrc , інакше webpack їх не побачить.",
+    "href":"https://create-react-app.dev/docs/folder-structure"
+  },
+  {
+    "title": "Доступні скрипти",
+    "body":"npm start Запускає веб-сервер з вашим проектом з використанням development сервера.\n\nnpm test\n\nЗапускає тести.\n\nnpm run build\n\nСтворює збірку для розгляду.\n\nnpm run eject\n\nРозкриває конфігу",
+    "href":"https://create-react-app.dev/docs/getting-started/"
+  },
+  {
+    "title":"Підтримувані браузери та функції",
+    "body":"За замовчуванням створений проект підтримує всі сучасні браузери. Для підтримки Internet Explorer 9, 10 і 11 потрібні полізаповнення. Для набору полізаповнень для підтримки старих браузерів використовуйте react-app-polyfill .",
+    "href":"https://create-react-app.dev/docs/supported-browsers-features"
+  }
+]

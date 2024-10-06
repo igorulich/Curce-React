@@ -1,0 +1,23 @@
+.Sitebar{
+  position: relative;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  grid-area:Sitebar ;
+  background: #9b9b9b;
+}
+.Sitebar ul{
+  list-style: none;
+  padding: 0;
+}
+.Sitebar li{
+  margin-bottom: 5px;
+  padding-left: 0px;
+  font-size: 19px;
+}
+.Sitebar li a{
+  color: #fff;
+  display: block;
+  text-decoration: none;  
+}

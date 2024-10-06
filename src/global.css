@@ -1,0 +1,14 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    "Header Header Header"
+    " Sitebar Main Main"
+    "Footer Footer Footer";
+}
