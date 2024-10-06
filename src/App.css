@@ -1,11 +1,27 @@
-.counter{
+.timeCounter{
   position: fixed;
   top: 5%;
   left: 12%;
   width: 180px;
   height: 70px;
-  background-color: #023b15be;
+  background-color: #02660286;
   z-index: 10;
   border:2px solid grey;
   border-radius: 8px;
+  text-align: center;
+}
+.timeCounter h3{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.timeCounter button{
+  background-color: #026602;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #fff;
 }
