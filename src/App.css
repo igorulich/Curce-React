@@ -4,9 +4,9 @@
   left: 12%;
   width: 180px;
   height: 70px;
-  background-color: #02660286;
+  background-color: #026602;
   z-index: 10;
-  border:2px solid grey;
+  border:2px solid rgb(255, 255, 255);
   border-radius: 8px;
   text-align: center;
 }
@@ -16,6 +16,7 @@
   margin-top: 10px;
 }
 .timeCounter button{
+  position: relative;
   background-color: #026602;
   color: white;
   border: none;
@@ -24,4 +25,6 @@
   cursor: pointer;
   margin-top: 10px;
   border: 1px solid #fff;
+  width: 50%;
+  
 }

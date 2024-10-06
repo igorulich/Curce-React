@@ -11,11 +11,15 @@ function App() {
   function Increase() {
     setCounter(counter+1)
   }
+  function Decrease() {
+    if(counter > 0) setCounter(counter-1)
+  }
   return (
     <>
       <div className='timeCounter'>
         <h3>{counter}</h3>
         <button onClick={Increase}>Click me +</button>
+        <button onClick={Decrease}>Click me -</button>
     </div>
     <Header/>
       <Main />
