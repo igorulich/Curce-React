@@ -6,21 +6,20 @@ import Footer from './pages/Footer/Footer';
 import { useState } from 'react';
 
 function App() {
-  const [counter, setCounter] = useState(0);
+  const [myState, setMystate] = useState(1);
+
+  function change() {
+    setMystate(myState + 10);
  
-  function Increase() {
-    setCounter(counter+1)
   }
-  function Decrease() {
-    if(counter > 0) setCounter(counter-1)
-  }
+
   return (
     <>
-      <div className='timeCounter'>
-        <h3>{counter}</h3>
-        <button onClick={Increase}>Click me +</button>
-        <button onClick={Decrease}>Click me -</button>
-    </div>
+      <div className='AppTest'>
+        console.log('render component App')
+        <p>My State is: {myState}</p>
+        <button onClick={change}>Change My State</button>
+      </div>
     <Header/>
       <Main />
       <Sitebar />
